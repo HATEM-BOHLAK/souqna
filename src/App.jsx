@@ -14,6 +14,7 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
+          sssss
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
