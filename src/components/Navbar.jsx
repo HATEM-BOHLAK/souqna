@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-my-bg border-b border-my-black">
+      <nav className="bg-my-bg border-b border-my-black fixed z-100 w-full">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           {/* الصف الأول: اللوغو + البحث + زر القائمة */}
           <div className="flex items-center justify-between h-16 gap-4">
