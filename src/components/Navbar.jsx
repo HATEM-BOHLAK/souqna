@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Navbar = () => {
               <div className="shrink-0">
                 <div className="flex items-center">
                   <span className="text-xl sm:text-2xl font-bold text-my-green">
-                    souqna
+                    <Logo size="small" /> {/* small | medium | large */}
                   </span>
                 </div>
               </div>
